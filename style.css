@@ -1,0 +1,56 @@
+:root {
+    --primary-color : #28CB8B;
+    --background-color: #F5F7FA;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--background-color);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.nav-link a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+.btn-disable {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    color: var(--primary-color);
+    font-size: 22px;
+    border-radius: 6px;
+}
